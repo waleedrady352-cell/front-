@@ -1,0 +1,114 @@
+/* ==================== Start Navbar ==================== */
+
+.navbar {
+    height: 80px;
+    z-index: 1000;
+}
+
+
+/* Logo */
+
+.logo-icon {
+    font-size: 40px;
+    color: #0879d1;
+}
+
+
+.logo-text h4 {
+    font-weight: 700;
+    color: #111;
+}
+
+
+.logo-text small {
+    color: #777;
+    font-size: 12px;
+}
+
+
+/* Navbar Links */
+
+.navbar-nav .nav-link {
+    color: #111;
+    font-weight: 600;
+    padding: 28px 5px;
+    position: relative;
+}
+
+
+/* Hover */
+
+.navbar-nav .nav-link:hover {
+    color: #0879d1;
+}
+
+
+/* Active Home */
+
+.navbar-nav .nav-link.active {
+    color: #0879d1;
+}
+
+
+/* الخط الأزرق تحت Home */
+
+.navbar-nav .nav-link.active::after {
+    content: "";
+
+    position: absolute;
+
+    bottom: 0;
+    left: 0;
+
+    width: 45px;
+    height: 3px;
+
+    background-color: #0879d1;
+}
+
+
+/* Cart */
+
+.cart-link {
+    text-decoration: none;
+
+    color: #111;
+
+    font-weight: 600;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+.cart-link i {
+    font-size: 30px;
+    color: #0879d1;
+}
+
+
+.cart-link:hover {
+    color: #0879d1;
+}
+
+
+/* Dropdown */
+
+.dropdown-menu {
+    border: none;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.dropdown-item:hover {
+    background-color: #f1f8ff;
+
+    color: #0879d1;
+}
+
+
+/* ==================== End Navbar ==================== */
